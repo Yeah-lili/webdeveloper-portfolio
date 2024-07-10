@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+}
+.socials{
+    justify-content:space-evenly ;
+
+}
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+footer .ending{
+    padding: 150px,32px;
+    
+}
+
+.feet{
+    background-color: #0d132103;
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 150px;
+    
+}
