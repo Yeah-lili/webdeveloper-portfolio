@@ -4,7 +4,9 @@
     margin: 0;
 }
 .socials{
-    justify-content:space-evenly ;
+    display: flex;
+    justify-content:space-evenly;
+    gap:22%; 
 
 }
 
