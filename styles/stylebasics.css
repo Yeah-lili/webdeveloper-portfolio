@@ -3,9 +3,115 @@
 *{
     margin: 0;
 }
+ 
+
+.toplayer{
+    margin: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.resume {
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 5%;
+    text-align: right;
+    box-sizing: border-box;
+    border: 1px solid #0d1321;
+    border-radius: 8px;
+    padding: 17px 24px;
+    cursor: pointer ;
+}
+
+.topintro{
+    background-image: url(/assets/Hero-bg.png) ;
+    background-size: 100% 100%
+    width: 1440px;
+    height: 652px;
+    text-align: center;
+}
+
+.topintroinner{
+    padding: 26px 221px 45px 221px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.quotes{
+    margin-top: 32px;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 68px;
+
+}
+
+.quotes02{
+    margin: 24px 73px ;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+}
+
+
+
+.contact{
+    width:244px;
+    height: 65px;
+    border-radius: 8px;
+    padding: 21px 24px;
+    cursor: pointer ;
+    margin: 32px  ;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: Auto;
+    color: #FFFFFF;
+    background-color: #0d1321;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+}
+
+
+picture01{
+
+}
+
+.btn-learn{
+    color: #0d1321;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 12px 20px;
+
+}
+
+
+
+  
 .socials{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:right;
     gap:22%; 
 
 }
@@ -17,10 +123,10 @@
   font-weight: 600;
   font-size: 20px;
 }
-footer .ending{
+/* footer .ending{
     padding: 150px,32px;
     
-}
+} */
 
 .feet{
     background-color: #0d132103;
