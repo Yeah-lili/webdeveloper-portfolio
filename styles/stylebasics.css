@@ -32,9 +32,9 @@
 
 .topintro{
     background-image: url(/assets/Hero-bg.png) ;
-    background-size: 100% 100%
-    width: 1440px;
-    height: 652px;
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    
     text-align: center;
 }
 
@@ -320,34 +320,117 @@
 .video{
     display: flex;
     justify-content: center;
-    border: 2px;
+    border-width: 10px;
     border-radius: 16px;
     margin-top: 48px;
     box-sizing: border-box;
-    border: 1px solid rgba(67, 14, 78, 0.087);
+    border: 2px solid rgba(67, 14, 78, 0.087);
     border-radius: 16px;
     padding: 32px;
-    
-    
 }
-
-
-
-
-
-
-
 
 .btn-learn{
+    margin-top: 32px;
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: Auto;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    padding: 12px 20px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.t{
+    margin: 150px;
+}
+
+.ct{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ctargethead{
+    margin-right:144px ;
+    margin-left: 144px;
+    font-family: "Azeret Mono", monospace;
+    display: flex;
+    justify-content: center;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    line-height: auto;
     color: #0d1321;
+}
+
+.ctargets{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+
+.ctarget1, .ctarget2, .ctarget3{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.ctarget1{
+    /* background-color: #EBEBEB  */;
+}
+
+.targetname{
+    margin-top: 24px;
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
-    font-size: 20px;
     font-style: normal;
-    font-weight: 600;
-    padding: 12px 20px;
-
+    font-weight: 800;
+    font-size: 24px;
+    text-align: left;
+    line-height: 36px;
+    color: #0d1321;
 }
+
+.targetbrief{
+    
+    margin-top: 24px;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    line-height: 26px;
+    color: #0d1321;
+    opacity: 0.7;
+   
+}
+
+.morect{
+    display: flex;
+    justify-content:left ;
+    margin-top: 24px;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: left;
+    line-height: auto;
+    color: #0d1321;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 
 
 
