@@ -385,7 +385,15 @@
 }
 
 .ctarget1{
-    /* background-color: #EBEBEB  */;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.ctarget2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.ctarget3{
+    background-color: rgba(255, 223, 0, 0.05);
 }
 
 .targetname{
