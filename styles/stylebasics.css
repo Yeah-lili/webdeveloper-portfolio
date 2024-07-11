@@ -54,6 +54,7 @@
     font-weight: 800;
     font-size: 48px;
     line-height: 68px;
+    text-align: center;
 
 }
 
@@ -65,6 +66,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
+    opacity: 0.7;
 
 }
 
@@ -90,10 +92,251 @@
     
 }
 
+.blank01{
+    height: 74px;
+}
 
-picture01{
+.reasons{
+    margin-right: 150px;
+    margin-left: 150px;
 
 }
+
+.reasonsborder{
+    margin: 80px 97px ;
+    background-color: #0d132102;
+}
+
+.question{
+    display: flex;
+    justify-content: center;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: Auto;
+
+}
+
+.answer{
+    margin-top: 24px;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    opacity: 0.7;
+    
+}
+
+.blank02{
+    height: 48px;
+}
+
+.blank03{
+    height: 32px;
+}
+
+.blank04{
+    height: 32px;
+}
+
+
+.reasonexample{
+    margin: 48px;
+}
+
+.reason01{
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 99px;
+}
+
+.left1{
+    display: flex;
+    flex-direction: column;
+}
+
+.motivation1{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+    line-height: 36px;
+    color: #0d132170;
+    
+}
+
+.explanation1{
+    margin-top: 16px;
+    margin-bottom: 32px ;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    line-height: 26px;
+    color: #0d1321;
+    opacity: 0.7;
+}
+
+.right{
+    justify-content: flex-end;
+}
+
+.reason02{
+    margin-top: 80px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.left2{
+    justify-content: flex-start;
+}
+
+.right2{
+    display: flex;
+    flex-direction: column;
+}
+.motivation2{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+    line-height: 36px;
+    color: #0d132170;
+}
+
+.explanation2{
+    margin-top: 16px;
+    margin-bottom: 32px ;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    line-height: 26px;
+    color: #0d1321;
+    opacity: 0.7;
+}
+
+
+.reason03{
+    margin-top: 48px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 133px;
+}
+
+.left3{
+    display: flex;
+    flex-direction: column;
+}
+
+.motivation3{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+    line-height: 36px;
+    color: #0d132170;
+    
+}
+
+.explanation3{
+    margin-top: 16px;
+    margin-bottom: 32px ;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    line-height: 26px;
+    color: #0d1321;
+    opacity: 0.7;
+}
+
+.right3{
+    justify-content: flex-end;
+}
+
+.inspiration{
+    margin: 90px 150px 90px 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.write{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    line-height: auto;
+}
+
+.writeup{
+    margin: 24px 144px 48px 144px;
+    font-family: "Azeret Mono", monospace;
+    display: flex;
+    justify-content: center;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    color: #0d1321;
+    opacity: 0.7;
+}
+
+
+
+
+.video{
+    display: flex;
+    justify-content: center;
+    border: 2px;
+    border-radius: 16px;
+    margin-top: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgba(67, 14, 78, 0.087);
+    border-radius: 16px;
+    padding: 32px;
+    
+    
+}
+
+
+
+
+
+
+
 
 .btn-learn{
     color: #0d1321;
