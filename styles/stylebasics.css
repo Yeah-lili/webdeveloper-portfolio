@@ -439,6 +439,48 @@
     cursor: pointer;
 }
 
+.supportbg{
+    margin: 49px 150px 80px 80px;
+    background-image: url(/assets/handshake.jpg) ;
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    border-radius: 16px;
+}
+
+.innersupport{
+    padding: 64px 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+.sheader{
+    margin-right:144px ;
+    margin-left: 144px;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    line-height: auto;
+    color: #FFFFFF;
+}
+
+.swriteup{
+    margin-top: 24px;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    line-height: 26px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
 
 
 
